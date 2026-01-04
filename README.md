@@ -22,3 +22,6 @@ Core game logic is covered with basic pytest unit tests
 - Try a simple AI strategy for the game
 - Add a basic GUI
 - Refactor the code as I learn more
+- 
+### How to run
+python game_2048.py
