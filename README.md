@@ -1,44 +1,24 @@
 ## 2048 Game in Python
 
-A Python implementation of the classic 2048 game, focusing on
-clear game logic, state transitions, and maintainable code structure.
+A simple Python implementation of the classic 2048 game.
+This project focuses on practicing grid-based logic, state updates,
+and writing readable Python code.
 
-This project was built as a hands-on exercise to strengthen
-algorithmic thinking and practical Python programming skills.
+### Features
+- 4×4 grid-based board
+- Slide and merge logic following standard 2048 rules
+- Console-based interaction (w / a / s / d)
 
----
+### What I focused on
+- Implementing the core slide and merge logic
+- Handling edge cases when tiles merge
+- Keeping the game state updates simple and readable
 
-## Features
-- 4×4 grid-based board representation
-- Deterministic move and merge logic
-- Score tracking
-- Clear separation between game state and operations
+### Testing
+Core game logic is covered with basic pytest unit tests
+(slide, merge, and move functions).
 
----
-
-## Engineering Focus
-- Designing state-based game logic
-- Implementing grid transformations for moves (up, down, left, right)
-- Handling edge cases in tile merging
-- Writing readable and modular Python code
-
----
-
-## What I Learned
-- Translating game rules into robust algorithms
-- Managing state transitions cleanly
-- Debugging edge cases in grid-based systems
-- Improving code clarity through iteration
-
----
-
-## Project Status
-Core game logic is complete.
-The project currently runs in a console-based environment.
-
----
-
-## Possible Extensions
-- Simple AI agent (heuristic-based decision making)
-- GUI or web-based interface
-- Performance and structure refactoring
+### Possible next steps
+- Try a simple AI strategy for the game
+- Add a basic GUI
+- Refactor the code as I learn more
